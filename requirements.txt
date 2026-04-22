@@ -1,0 +1,17 @@
+# Core
+# Core
+tensorflow==2.19.0
+keras==3.12.1
+
+# API
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9
+
+# Image processing
+Pillow==10.4.0
+numpy==1.26.4
+
+numpy
+matplotlib
+pandas
