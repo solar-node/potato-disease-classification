@@ -98,7 +98,6 @@ const useStyles = makeStyles((theme) => ({
   tableHead: { backgroundColor: 'transparent !important' },
   tableRow: { backgroundColor: 'transparent !important' },
   tableCell: {
-    fontSize: '22px',
     backgroundColor: 'transparent !important',
     borderColor: 'rgba(255,255,255,0.08) !important',
     color: 'rgba(255,255,255,0.55) !important',
@@ -212,6 +211,7 @@ export const ImageUpload = () => {
     if (!preview) return;
     setIsloading(true);
     sendFile();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [preview]);
 
   const onSelectFile = (files) => {
