@@ -1,0 +1,5 @@
+docker run -t --rm --platform linux/amd64 -p 8501:8501 \
+  -v "/Users/adityasingh/Desktop/100_days_DL/Code/Projects/Potato-disease-classifier:/potato_app" \
+  tensorflow/serving \
+  --rest_api_port=8501 \
+  --model_config_file=/potato_app/training/models.config

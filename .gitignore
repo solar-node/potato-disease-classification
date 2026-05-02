@@ -1,31 +1,36 @@
-dataset/
-*commands.txt
-*.pyc
-# 1. Datasets & Large Files (CRITICAL)
-# Git is not meant for storing thousands of images.
+# 1. Datasets & Large Files
 dataset/
 
 # 2. Model Weights & Binaries
-# These .pb and variables files are massive. 
-# Only commit them if they are small and strictly required for a cloud deployment.
 saved_model/
+saved_model_new/
+*.h5
+*.keras
 
 # 3. Python Cache & Environment
-# These are generated automatically when you run Python code.
 __pycache__/
 *.py[cod]
 *$py.class
-
+test_env/
+.env
 
 # 4. Jupyter Notebook Checkpoints
-# Hidden folders created when saving notebooks.
 .ipynb_checkpoints/
 
 # 5. IDE & Editor Settings
-# Your personal VS Code and PyCharm settings shouldn't be forced on other developers.
 .vscode/
 .idea/
 
 # 6. Mac OS Junk Files
-# Hidden files macOS creates in folders automatically.
 .DS_Store
+
+# 7. Node/JS Dependencies (just in case they aren't caught by sub-folders)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 8. Android Build files
+*.my-upload-key.keystore
+mobile-app/android/app/build/
+mobile-app/android/.gradle/

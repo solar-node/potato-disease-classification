@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #0a1f14;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.MuiDropzoneArea-root {
+	background-color: rgba(255,255,255,0.05) !important;
+	border: 2px dashed rgba(82, 183, 136, 0.5) !important;
+	border-radius: 16px !important;
+	transition: border-color 0.3s ease !important;
+}
+.MuiDropzoneArea-root:hover {
+	border-color: rgba(82, 183, 136, 0.9) !important;
+}
+.MuiDropzoneArea-text {
+	color: rgba(255,255,255,0.8) !important;
+	font-family: 'Inter', sans-serif !important;
+	font-size: 15px !important;
+}
+.MuiDropzoneArea-icon {
+	color: #52b788 !important;
+}

@@ -1,17 +1,15 @@
-# Core
-# Core
-tensorflow==2.19.0
-keras==3.12.1
-
-# API
+# --- Web Framework ---
 fastapi==0.115.0
 uvicorn==0.30.6
 python-multipart==0.0.9
 
-# Image processing
-Pillow==10.4.0
+# --- Machine Learning & Math ---
+tensorflow==2.20.0
 numpy==1.26.4
+pandas==2.3.3
 
-numpy
-matplotlib
-pandas
+# --- Image Processing & Visualization ---
+pillow==10.4.0
+matplotlib==3.10.8
+
+google-cloud-storage==3.10.1
