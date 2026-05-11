@@ -461,46 +461,16 @@ The GCP Cloud Function sets `Access-Control-Allow-Origin: *` and handles preflig
 
 ### Python (root `requirements.txt`)
 
-```
-fastapi==0.115.0
-uvicorn==0.30.6
-python-multipart==0.0.9
-tensorflow==2.20.0
-numpy==1.26.4
-pandas==2.3.3
-pillow==10.4.0
-matplotlib==3.10.8
-google-cloud-storage==3.10.1
-```
-
 ### Frontend (`frontend/package.json`)
 
-```
-react@17.0.2
-@material-ui/core@4.12.4
-@material-ui/icons@4.11.3
-material-ui-dropzone@3.5.0
-axios@1.15.2
-```
+
 
 ---
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -m 'feat: add your feature'`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Open a Pull Request
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
 <p align="center">
-  Built with ❤️ using TensorFlow · FastAPI · React · React Native · Google Cloud
+  Built using TensorFlow · FastAPI · React · React Native · Google Cloud
 </p>
